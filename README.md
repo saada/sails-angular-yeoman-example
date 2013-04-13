@@ -1,0 +1,2 @@
+# YoSailsAngular
+### a Sails application
