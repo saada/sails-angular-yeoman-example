@@ -3,8 +3,8 @@
 	
 	<p>Users:</p>
 	<ul>
-		<li ng-repeat="user in users">
-			<b>{{user.name}}</b>
+		<li ng-repeat="user in users | orderBy:'count':true">
+			<b class="user" ng-click="add(user)">{{user.name}} - {{user.count}}</b>
 		</li>
 	</ul>
 
